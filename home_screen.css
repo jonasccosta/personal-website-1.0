@@ -62,9 +62,9 @@
     text-align: center;
     margin-top: 40.11111%;
     left: 6.40625%;
+    font-size: 25px;
   }
 
-  
 
   body{
       background-color: #0E0B16;
@@ -88,6 +88,17 @@
     position: fixed;
     top: 35.895833333%;
     left: 31.574074074%;
+  }
+
+  h2{
+    font-family: 'Chakra Petch', sans-serif, '700';
+    text-align: center;
+    font-size: 50px;
+    color: #E7DFDD;
+    position: fixed;
+    top: 1.895833333%;
+    left: 23.574074074%;
+    margin: 0%;
   }
 
   .vector_image{
