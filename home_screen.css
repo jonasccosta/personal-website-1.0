@@ -106,8 +106,27 @@
     position: absolute; 
     bottom: 0px; 
     right: 0px;
-    height: 37.543%;
-    width: 20.83333%;
+    height: 300px;
+    width: 300px;
+  }
+
+  .language{
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+  }
+
+  .language a{
+    display:inline-block;
+  }
+
+  .portuguese, .english{
+    height: 20px;
+    width: 30px;
+   
+    
   }
   
 
