@@ -8,4 +8,4 @@ var menu_item_name = ["index", "about_me", "projects", "hobbies", "contact"];
 
 var current_page_index = menu_item_name.indexOf(file_name_edited);
 
-menu[current_page_index].style.color = "#A239CA";
+menu[current_page_index].style.color = "#C788DF";

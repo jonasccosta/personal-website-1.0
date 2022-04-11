@@ -9,7 +9,7 @@
     background-color: #0E0B16; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
-    border-right: 1px solid #4117F6;
+    border-right: 1px solid #7E5DF9;
   }
   
   /* The navigation menu links */
@@ -17,7 +17,7 @@
     text-decoration: none;
     font-size: 28;
     font-family: 'Chakra Petch', sans-serif, '300';
-    color: #4117F6;
+    color: #7E5DF9;
     display: block;
   }
   
@@ -42,13 +42,15 @@
   .headshot{
     height: 200px;
     width: 200px;
+    border-radius: 50%;
+    border: 3px solid #7E5DF9; 
   }
 
   h1{
     font-family: 'Chakra Petch', sans-serif, '700';
     text-align: center;
     font-size: 40px;
-    color: #4117F6;
+    color: #7E5DF9;
   }
 
   .job{
