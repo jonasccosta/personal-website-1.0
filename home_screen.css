@@ -140,8 +140,8 @@
     font-size: 22px;
     color: #E7DFDD;
     position: fixed;
-    top: 20%;
-    left: 25%;
+    top: 175px;
+    left: 380px;
   }
 
   
@@ -166,6 +166,23 @@
     float: left; 
     margin-right: 10px;
     
+  }
+
+  .content_about_page{
+    font-family: 'Chakra Petch', sans-serif, '300';
+    width: 900px;
+    height: 800px;
+    text-align: justify;
+    font-size: 22px;
+    color: #E7DFDD;
+    position: fixed;
+    top: 100px;
+    left: 380px;
+  }
+
+  .resume_link{
+    text-decoration: none;
+    color: #7E5DF9;
   }
 
   
