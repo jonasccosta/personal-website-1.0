@@ -1,37 +1,39 @@
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 290px; /* Set the width of the sidebar */
+    width: 20%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
     background-color: #0E0B16; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: auto;
     border-right: 1px solid #7E5DF9;
+    min-height: fit-content;
   }
   
   /* The navigation menu links */
   .sidenav a {
     text-decoration: none;
-    font-size: 26px;
+    font-size: 1.2em;
     font-family: 'Chakra Petch', sans-serif, '300';
     color: #7E5DF9;
     display: block;
-    line-height: 40px;
+    line-height: 1.3em;
   }
   
   
   /* Style page content */
   .main {
-    margin-left: 290px; /* Same as the width of the sidebar */
+    margin-left: 20%; /* Same as the width of the sidebar */
     padding: 0px 0px;
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav a {font-size: 1em;}
   }
 
   .jonas_headshot{
@@ -40,8 +42,8 @@
   }
 
   .headshot{
-    height: 180px;
-    width: 180px;
+    height: 15%;
+    width: 70%;
     border-radius: 50%;
     border: 3px solid #7E5DF9; 
   }
@@ -49,16 +51,16 @@
   h1{
     font-family: 'Chakra Petch', sans-serif, '700';
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5em;
     color: #7E5DF9;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: .125em;
+    margin-bottom:.125em;
   }
 
   .job{
     font-family: 'Chakra Petch', sans-serif, '300';
     text-align: center;
-    font-size: 15px;
+    font-size: 1em;
     color: #E7DFDD;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -70,8 +72,7 @@
     left: 0px;
     right: 0px;
     text-align: center;
-    font-size: 25px;
-
+    font-size: 1.5em;
   }
 
 
@@ -82,87 +83,89 @@
   .hi{
     font-family: 'Chakra Petch', sans-serif, '700';
     text-align: center;
-    font-size: 60px;
+    font-size: 4em;
     color: #E7DFDD;
     position: fixed;
-    top: 137px;
-    left: 408px;
+    top: 20%;
+    left: 27%;
   }
 
   .introduction_text{
     font-family: 'Chakra Petch', sans-serif, '300';
     text-align: left;
-    font-size: 30px;
+    font-size: 1.8em;
     color: #E7DFDD;
     position: fixed;
-    top: 35.895833333%;
-    left: 31.574074074%;
+    top: 35%;
+    left: 32%;
   }
 
   h2{
     font-family: 'Chakra Petch', sans-serif, '700';
     text-align: center;
-    font-size: 50px;
+    font-size: 4em;
     color: #E7DFDD;
     position: fixed;
-    top: 1.895833333%;
-    left: 23.574074074%;
+    top: 2%;
+    left: 25%;
     margin: 0%;
     z-index: 1;
   }
 
   .vector_image{
-    position: absolute; 
-    bottom: 0px; 
-    right: 0px;
-    height: 300px;
-    width: 300px;
+    position: fixed; 
+    bottom: 0%; 
+    right: 0%;
+    height: 40%;
+    width: 20%;
   }
 
   .language{
     margin-top: 10px;
+    width: 100%;
   }
 
   .language a{
-    display:inline-block;
+    display:inline;
   }
 
   .portuguese, .english{
-    height: 20px;
-    width: 30px;
+    height: 8%;
+    width: 12%;
   }
 
   .content_contact_page{
     font-family: 'Chakra Petch', sans-serif, '300';
-    width: 700px;
-    height: 110px;
+    width: 55%;
+    height: 75%;
     text-align: justify;
-    font-size: 22px;
+    font-size: 1.25em;
     color: #E7DFDD;
     position: fixed;
-    top: 175px;
-    left: 380px;
+    top: 20%;
+    left: 25%;
   }
 
   
   .contact_links{
     position: fixed;
-    top: 37%;
-    left: 27%;
+    margin-top: 0.5em;
+    top: 30%;
+    left: 25%;
   }
 
   .contact_links a{
       text-decoration: none;
-      font-size: 22px;
+      font-size: 1.25em;
       font-family: 'Chakra Petch', sans-serif, '300';
       color: #7E5DF9;
       display: block;
-      line-height: 50px;
+      line-height: 2em;
   }
 
   .email_icon, .github_icon, .linkedin_icon{
-    height: 50px;
-    width: 50px;
+    height: 8%;
+    width: 8%;
     float: left; 
     margin-right: 10px;
     
@@ -170,14 +173,15 @@
 
   .content_about_page{
     font-family: 'Chakra Petch', sans-serif, '300';
-    width: 900px;
-    height: 800px;
+    width: 55%;
+    height: 75%;
     text-align: justify;
-    font-size: 22px;
+    font-size: 1.25em;
     color: #E7DFDD;
     position: fixed;
-    top: 100px;
-    left: 380px;
+    top: 12%;
+    left: 25%;
+    overflow:auto;
   }
 
   .resume_link{
