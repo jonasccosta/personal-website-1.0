@@ -28,6 +28,7 @@
   .main {
     margin-left: 20%; /* Same as the width of the sidebar */
     padding: 0px 0px;
+    overflow: auto;
   }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
@@ -144,6 +145,7 @@
     position: fixed;
     top: 20%;
     left: 25%;
+    overflow: auto;
   }
 
   
@@ -187,6 +189,36 @@
   .resume_link{
     text-decoration: none;
     color: #7E5DF9;
+  }
+
+  item_content{
+    font-family: 'Chakra Petch', sans-serif, '300';
+    width: 55%;
+    height: 75%;
+    text-align: justify;
+    font-size: 1.25em;
+    color: #E7DFDD;
+    position: fixed;
+    top: 12%;
+    left: 25%;
+    overflow:auto;
+  }
+
+  h3{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Chakra Petch', sans-serif, '700';
+    color: #7E5DF9;
+    display: block;
+    line-height: 2em;
+    top: 12%;
+    left: 25%
+  }
+
+  hiking_image{
+    height: 4%;
+    width: 4%;
+
   }
 
   
