@@ -152,8 +152,6 @@
   .contact_links{
     position: fixed;
     margin-top: 0.5em;
-    top: 30%;
-    left: 25%;
   }
 
   .contact_links a{
@@ -191,7 +189,7 @@
     color: #7E5DF9;
   }
 
-  item_content{
+  .item_content{
     font-family: 'Chakra Petch', sans-serif, '300';
     width: 55%;
     height: 75%;
@@ -207,17 +205,19 @@
   h3{
     text-decoration: none;
     font-size: 1.5em;
-    font-family: 'Chakra Petch', sans-serif, '700';
+    font-family: 'Chakra Petch', sans-serif, '300';
     color: #7E5DF9;
     display: block;
-    line-height: 2em;
-    top: 12%;
-    left: 25%
+    top: 10%;
+    left: 25%;
+    margin-block-end: 0em;
   }
 
-  hiking_image{
-    height: 4%;
-    width: 4%;
+  .hiking_image{
+    float: left;
+    height: 20%;
+    width: 20%;
+    margin-right: 10px;
 
   }
 
