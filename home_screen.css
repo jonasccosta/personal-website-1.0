@@ -1,6 +1,4 @@
-html { 
-  overflow-y: scroll; 
-}
+
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -84,8 +82,6 @@ html {
 
   body{
       background-color: #0E0B16;
-      position: absolute;
-      overflow-y: scroll;
   }
 
   .hi{
@@ -113,7 +109,7 @@ html {
     text-align: center;
     font-size: 4em;
     color: #E7DFDD;
-    position: fixed;
+    position: absolute;
     top: 2%;
     left: 25%;
     margin: 0%;
@@ -121,9 +117,9 @@ html {
   }
 
   .vector_image{
-    position: fixed; 
-    bottom: 0%; 
-    right: 0%;
+    position: fixed;
+    bottom: 0; 
+    right: 0;
     height: 40%;
     width: 20%;
   }
@@ -199,7 +195,7 @@ html {
   .item_content{
     font-family: 'Chakra Petch', sans-serif, '300';
     width: 65%;
-    position:fixed;
+    position:absolute;
     text-align: justify;
     font-size: 1.25em;
     color: #E7DFDD;
