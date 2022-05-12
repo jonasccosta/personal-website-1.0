@@ -34,11 +34,6 @@
     overflow-y: scroll;
   }
   
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 1em;}
-  }
 
   .jonas_headshot{
     margin-top: 40px;
@@ -137,20 +132,6 @@
     height: 8%;
     width: 12%;
   }
-
-  .content_contact_page{
-    font-family: 'Chakra Petch', sans-serif, '300';
-    width: 65%;
-    height: 75%;
-    text-align: justify;
-    font-size: 1.25em;
-    color: #E7DFDD;
-    position: fixed;
-    top: 20%;
-    left: 25%;
-    overflow: auto;
-  }
-
   
   .contact_links{
     position: fixed;
@@ -174,34 +155,22 @@
     
   }
 
-  .content_about_page{
+  .page_content{
     font-family: 'Chakra Petch', sans-serif, '300';
     width: 65%;
     height: 75%;
     text-align: justify;
     font-size: 1.25em;
     color: #E7DFDD;
-    position: fixed;
+    position: absolute;
     top: 12%;
     left: 25%;
-    overflow:auto;
+    bottom: 0;
   }
 
   .resume_link{
     text-decoration: none;
     color: #7E5DF9;
-  }
-
-  .item_content{
-    font-family: 'Chakra Petch', sans-serif, '300';
-    width: 65%;
-    position:absolute;
-    text-align: justify;
-    font-size: 1.25em;
-    color: #E7DFDD;
-    top: 12%;
-    bottom: 0;
-    left: 25%;
   }
 
   h3{
@@ -221,14 +190,19 @@
     margin-block-start: 50px;
   }
 
+  .item_wrapper{
+    position: relative;
+    height: 30%;
+  }
+
   .item_image{
     float: left;
-    height: 20%;
-    width: 20%;
+    height: 100%;
+    width: auto;
     margin-right: 20px;
     border-radius: 20px;
-    border: 3px solid #7E5DF9; 
-
+    border: 3px solid #7E5DF9;
+    
   }
 
   
