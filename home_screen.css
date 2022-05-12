@@ -82,22 +82,26 @@
 
   .hi{
     font-family: 'Chakra Petch', sans-serif, '700';
-    text-align: center;
+    text-align: left;
     font-size: 4em;
     color: #E7DFDD;
-    position: fixed;
-    top: 20%;
-    left: 27%;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+
+  #greetings{
+    margin-block-end: 0;
   }
 
   .introduction_text{
     font-family: 'Chakra Petch', sans-serif, '300';
-    text-align: left;
+    width: 50%;
+    text-align: justify;
     font-size: 1.8em;
     color: #E7DFDD;
-    position: fixed;
-    top: 35%;
-    left: 32%;
+    position: relative;
+    margin-left: 20%;
   }
 
   h2{
