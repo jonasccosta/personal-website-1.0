@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<head>
+    <title>Jonas Costa - Home</title>
+    <link rel="icon" href="resources/vector_field.png">
+
+    <link rel="stylesheet" href="home_screen.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;700&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+    
+
+    <div class="sidenav">
+        <div class="jonas_headshot">
+            <img class="headshot"src="resources/jonas_photo.png" alt="Jonas Costa é um jovem homem branco, usando óculos com armação redondas e jaqueta preta.">
+        </div>
+    
+
+        <h1>Jonas Costa</h1>
+        <div class="job">
+            Desenvolvedor de Software
+        </div>
+
+        <div id="main_menu" class="main_menu">
+            <a href="index.html">Home</a>
+            <a href="about_me.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="contact.html">Contact</a>
+
+            <div class="language">
+                <a href="#">
+                    <img class="portuguese" src="resources/brazil_flag.png" alt="Flag of Brazil">
+                </a>
+                
+                <a href="index.html">
+                    <img class="english" src="resources/usa_flag.png" alt="Flag of United States">
+                </a>
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+
+    <img class="vector_image" src="resources/vector_field.png" alt="Gradient of purple vectors going outwards in a circle">
+
+
+
+
+  
+    <!-- Page content -->
+    <div class="main">
+        <div class="hi">
+            <p id="greetings">Olá!</p>
+        </div>
+
+        <div class="introduction_text">
+            <p>Sou Jonas, um desenvolvedor de software full stack.<br>  
+                Eu projeto and desenvolvo software com   
+                foco em ética, acessibilidade and justiça social.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
